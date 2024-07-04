@@ -1,0 +1,78 @@
+
+  
+  
+  .main-panel {
+    margin-top: 10px;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+.master-breadcrumb{
+margin-top: 12px!important;
+padding-left: 12px!important;
+background-color: #F4F5FA!important;
+border-radius:6px!important;
+}
+
+.master-breadcrumb-item{
+margin-right: 6px;
+margin-left: 6px;
+padding-bottom: 6px!important;
+padding-top: 6px!important;
+
+}
+
+.activeBreadcrumb{
+color:#464dee!important;
+font-size:16px;
+font-weight:600;
+}
+
+.linkBreadcrumb{
+color:#000!important;
+}
+
+
+
+
+.table thead tr {
+
+background: hsl(224, 70%, 40%);
+background: linear-gradient(180deg, #1e44ad, hsl(226, 75%, 71%));
+  color: white!important;
+  height:15px;
+}
+
+
+.table thead  {
+  line-height: 0.7;
+}
+
+.table  td  {
+  font-weight:450!important;
+}
+/* .navbar{
+padding: 0.15rem 1rem;
+}
+ */
+
+  label{
+font-family:'Montserrat', sans-serif;
+font-size:14px;
+font-weight: 1200;
+
+}
+
+.card-header{
+color:#545454; 
+/* color:black; */
+background-color: #b3cbff;
+font-family: Muli;
+height: 45px;
+margin-left: 0%;
+width:100%; 
+margin-top:10px;
+}
+
+
+

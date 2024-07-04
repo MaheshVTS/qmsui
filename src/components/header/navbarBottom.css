@@ -1,0 +1,503 @@
+
+         
+/**************************BOTTOM NAVBAR*************************/
+
+.bottom-navbar {
+  background: #d4e4ff;
+  color: #0c0b0b;
+  z-index: 1999;
+  /* position: absolute;  this will solve problem you know*/
+  display: flex;
+  justify-content: space-between;
+  height: 34px;
+  width: 100%;
+  /* top: 35px; */
+}
+
+
+
+
+.bottom-navbar-icons{
+  color: #464dee!important;
+  margin-right: .5rem;
+  padding:0px!important;
+
+}
+
+
+.bottom-navbar .container-fluid {
+  background: transparent !important;
+}
+
+
+
+
+.bottom-logo {
+  position: relative;
+  left: 0;
+  font-size: 24px !important; 
+}
+
+
+
+
+.bottom-logo a:hover {
+  text-decoration: none; 
+ }
+
+.bottom-navbar .bottom-navigation .bottom-menu {
+  margin-bottom: 0; 
+  float: right!important;
+ }
+
+ .bottom-navbar .bottom-menu-toggle {
+  color: #fff;
+  line-height: 0;
+  font-size: 2.5rem;
+  position: relative; 
+}
+
+
+@media (max-width: 767.98px) {
+  .bottom-navbar .bottom-menu-toggle {
+  margin-left: 5px; 
+} }
+
+
+.bottom-navbar .bottom-navigation {
+  /* Positioning adjustments */
+  z-index: 5; 
+  background: transparent !important;
+
+}
+
+
+
+ .bottom-navbar .bottom-navigation .bottom-menu .active > a span {
+        background: #007bff;
+        color: #fff;
+        border-radius: 30px;
+        display: inline-block;
+        padding: 5px 20px; 
+}
+    
+    .bottom-navbar .bottom-navigation .bottom-menu a {
+        text-decoration: none !important;
+        display: inline-block;
+     }
+
+    .bottom-navbar .bottom-navigation .bottom-menu > li {
+        display: inline-block; 
+    }
+
+    .bottom-navbar .bottom-navigation .bottom-menu > li > a {
+          padding: 1px 0px;
+          color: #fff;
+          font-size: 16px;
+          text-decoration: none !important; 
+    }
+
+    .bottom-navbar .bottom-navigation .bottom-menu > li > a > span {
+            padding: 5px 20px;
+            display: inline-block;
+            -webkit-transition: .3s all ease;
+            -o-transition: .3s all ease;
+            transition: .3s all ease;
+            border-radius: 30px; 
+    }
+
+    .bottom-navbar .bottom-navigation .bottom-menu > li > a:hover > span {
+            /* background: #007bff; */
+            background:transparent;
+            color: #fff;
+            border-radius: 30px;
+            display: inline-block;
+     }
+
+     .bottom-navbar .bottom-navigation .bottom-menu .has-children {
+        position: relative;
+    }
+
+    .bottom-navbar .bottom-navigation .bottom-menu .has-children > a span {
+       position: relative;
+       padding-right: 30px; 
+       font-size: 0.875rem;
+       font-weight: 500;
+       color: #000;
+    }
+   
+
+ 
+   .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown {
+          visibility: hidden;
+          opacity: 0;
+          top: 100%;
+          position: absolute;
+          text-align: left;
+          border-top: 2px solid #464dee;
+          -webkit-box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.1);
+          padding: 0px 0;
+          margin-top: 20px;
+          margin-left: 0px;
+          background: #fff;
+          -webkit-transition: 0.2s 0s;
+          -o-transition: 0.2s 0s;
+          transition: 0.2s 0s; 
+        }
+
+
+        
+.bottom-navbar .bottom-navigation .bottom-menu .has-children:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown.arrow-top {
+  position: absolute; 
+}
+
+
+     .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown a {
+            text-transform: none;
+            letter-spacing: normal;
+            -webkit-transition: 0s all;
+            -o-transition: 0s all;
+            transition: 0s all;
+            color: #343a40; 
+    }
+
+    
+  .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown .active > a {
+            color: #007bff !important;
+  }
+
+          
+     .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown > li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            min-width: 200px; 
+    }
+            
+    .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown > li > a {
+              padding: 9px 20px;
+              display: block; 
+    }
+     
+    .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown > li > a:hover {
+                background: #464dee; 
+                color:#fff;
+    }
+    
+    .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown > li.has-children > a {
+              position: relative; 
+    }
+    
+    /* .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown > li.has-children > a:after {
+                content: "\F140";
+                font-family: "Material Design Icons";
+                font-style: normal;
+                display: block;
+                font-size: 20px;
+                line-height: 10px;
+                color: #000;
+                background-color: #007bff;
+    } */
+   
+    .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown > li.has-children > .dropdown, .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown > li.has-children > ul {
+              left: 100%;
+              top: 0;
+            
+    }
+   .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown > li.has-children:hover > a, .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown > li.has-children:active > a, .bottom-navbar .bottom-navigation .bottom-menu .has-children .dropdown > li.has-children:focus > a {
+              background: #fafafb; 
+     }
+   
+     .bottom-navbar .bottom-navigation .bottom-menu .has-children:hover > a, .bottom-navbar .bottom-navigation .bottom-menu .has-children:focus > a, .bottom-navbar .bottom-navigation .bottom-menu .has-children:active > a {
+          color: #007bff; 
+    }
+   
+    .bottom-navbar .bottom-navigation .bottom-menu .has-children:hover > a span, .bottom-navbar .bottom-navigation .bottom-menu .has-children:focus > a span, .bottom-navbar .bottom-navigation .bottom-menu .has-children:active > a span {
+            /* background: #464dee; */
+            /* color: #fff;  */
+            color: #464dee; 
+           
+    }
+    
+    .bottom-navbar .bottom-navigation .bottom-menu .has-children:hover, .bottom-navbar .bottom-navigation .bottom-menu .has-children:focus, .bottom-navbar .bottom-navigation .bottom-menu .has-children:active {
+          cursor: pointer; 
+    }
+    
+    .bottom-navbar .bottom-navigation .bottom-menu .has-children:hover > .dropdown, .bottom-navbar .bottom-navigation .bottom-menu .has-children:focus > .dropdown, .bottom-navbar .bottom-navigation .bottom-menu .has-children:active > .dropdown {
+            -webkit-transition-delay: 0s;
+            -o-transition-delay: 0s;
+            transition-delay: 0s;
+            margin-top: 0px;
+            visibility: visible;
+            opacity: 1; 
+    }
+
+    /* deskyop code ends here below is mobile menu */
+  
+   .bottom-mobile-menu {
+    width: 300px;
+    position: fixed;
+    right: 0;
+    z-index: 2000;
+    padding-top: 20px;
+    background: #fff;
+    height: calc(100vh);
+    -webkit-transform: translateX(110%);
+    -ms-transform: translateX(110%);
+    transform: translateX(110%);
+    -webkit-box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out; 
+  
+  }
+    
+  .offcanvas-menu .bottom-mobile-menu {
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+         transform: translateX(0%); 
+  }
+  
+  .bottom-mobile-menu .bottom-mobile-menu-header {
+          width: 100%;
+          float: left;
+          padding-left: 20px;
+         padding-right: 20px;
+ }
+
+ .bottom-mobile-menu .bottom-mobile-menu-header .bottom-mobile-menu-close {
+        float: right;
+        margin-top: 8px;
+      
+    
+  }
+
+ .bottom-mobile-menu .bottom-mobile-menu-header .bottom-mobile-menu-close span {
+          font-size: 30px;
+          display: inline-block;
+          padding-left: 10px;
+          padding-right: 0px;
+          line-height: 1;
+          cursor: pointer;
+          -webkit-transition: .3s all ease;
+          -o-transition: .3s all ease;
+          transition: .3s all ease; 
+  }
+  
+  .bottom-mobile-menu .bottom-mobile-menu-header .bottom-mobile-menu-close span:hover {
+            color: #f8f9fa; 
+  }
+  
+  .bottom-mobile-menu .bottom-mobile-menu-header .bottom-mobile-menu-logo {
+        float: left;
+        margin-top: 10px;
+        margin-left: 0px; 
+  }
+  
+  .bottom-mobile-menu .bottom-mobile-menu-header .bottom-mobile-menu-logo a {
+          display: inline-block;
+          text-transform: uppercase;
+   }
+  
+   .bottom-mobile-menu .bottom-mobile-menu-header .bottom-mobile-menu-logo a img {
+            max-width: 70px;
+   }
+
+  .bottom-mobile-menu .bottom-mobile-menu-header .bottom-mobile-menu-logo a:hover {
+            text-decoration: none; 
+  }
+   
+  .bottom-mobile-menu .bottom-mobile-menu-body {
+      overflow-y: scroll;
+      -webkit-overflow-scrolling: touch;
+      position: relative;
+      padding: 0 20px 20px 20px;
+      height: calc(100vh - 52px);
+      padding-bottom: 150px; 
+  }
+  
+  .bottom-mobile-menu .bottom-nav-wrap {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      position: relative;
+    
+  }
+      
+  .bottom-mobile-menu .bottom-nav-wrap a {
+        padding: 10px 20px;
+        display: block;
+        position: relative;
+        color: #212529; 
+  }
+ 
+  .bottom-mobile-menu .bottom-nav-wrap a:hover {
+          color: #007bff; 
+  }
+ 
+  .bottom-mobile-menu .bottom-nav-wrap li {
+        position: relative;
+        display: block; 
+  }
+  
+.bottom-mobile-menu .bottom-nav-wrap li.active > a {
+          color: #007bff; 
+}
+
+.bottom-mobile-menu .bottom-nav-wrap .arrow-collapse {
+        position: absolute;
+        right: 0px;
+        top: 10px;
+        z-index: 20;
+        width: 36px;
+        height: 36px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 50%; 
+  }
+ 
+  .bottom-mobile-menu .bottom-nav-wrap .arrow-collapse:hover {
+          background: #f8f9fa;
+        
+  }
+ 
+  .bottom-mobile-menu .bottom-nav-wrap .arrow-collapse:before {
+    font-size: 12px;
+    z-index: 20;
+    font-family: "icomoon";
+    content: "\f078";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(-180deg);
+    -ms-transform: translate(-50%, -50%) rotate(-180deg);
+    transform: translate(-50%, -50%) rotate(-180deg);
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; 
+  }
+
+  
+  
+  .bottom-mobile-menu .bottom-nav-wrap .arrow-collapse.collapsed:before {
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); 
+  }
+      .bottom-mobile-menu .bottom-nav-wrap > li {
+        display: block;
+        position: relative;
+        float: left;
+        width: 100%; }
+        .bottom-mobile-menu .bottom-nav-wrap > li > a {
+          padding-left: 20px;
+          font-size: 20px; }
+        .bottom-mobile-menu .bottom-nav-wrap > li > ul {
+          padding: 0;
+          margin: 0;
+          list-style: none; }
+          .bottom-mobile-menu .bottom-nav-wrap > li > ul > li {
+            display: block; }
+            .bottom-mobile-menu .bottom-nav-wrap > li > ul > li > a {
+              padding-left: 40px;
+              font-size: 16px; }
+            .bottom-mobile-menu .bottom-nav-wrap > li > ul > li > ul {
+              padding: 0;
+              margin: 0; }
+              .bottom-mobile-menu .bottom-nav-wrap > li > ul > li > ul > li {
+                display: block; }
+                .bottom-mobile-menu .bottom-nav-wrap > li > ul > li > ul > li > a {
+                  font-size: 16px;
+                  padding-left: 60px; }
+      .bottom-mobile-menu .bottom-nav-wrap[data-class="social"] {
+        float: left;
+        width: 100%;
+        margin-top: 30px;
+        padding-bottom: 5em; }
+        .bottom-mobile-menu .bottom-nav-wrap[data-class="social"] > li {
+          width: auto; }
+          .bottom-mobile-menu .bottom-nav-wrap[data-class="social"] > li:first-child a {
+            padding-left: 15px !important; }
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+.menu-arrow {
+  margin-left: 5px;
+  color: #000;
+  position: absolute;
+  margin-top:5px;
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -o-transform-origin: center;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+
+.menu-arrow:before {
+  content: "\e313"; /* Initial content */
+  font-family: "Material Icons";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 10px;
+  margin-left: 5px;
+  font-weight: 400;
+}
+
+.menu-arrow:after {
+  content: "\e316"; /* Content to show on hover */
+  font-family: "Material Icons";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 10px;
+  margin-left: 5px;
+  font-weight: 400;
+  opacity: 0; /* Initially hidden */
+  position: absolute;
+  left: 0; /* Positioning on top of the before content */
+  top: 0;
+  transition: opacity 0.25s; /* Smooth transition */
+}
+
+.menu-arrow:hover:before {
+  opacity: 0; /* Hide the before content on hover */
+}
+
+.menu-arrow:hover:after {
+  opacity: 1; /* Show the after content on hover */
+}
+
+
+.has-children:hover .menu-arrow:before {
+  opacity: 0; /* Hide the before content on hover */
+}
+
+.has-children:hover .menu-arrow:after {
+  opacity: 1; /* Show the after content on hover */
+}
